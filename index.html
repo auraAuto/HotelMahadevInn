@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel Mahadev Inn — A Heritage of Hospitality</title>
+<meta name="description" content="Hotel Mahadev Inn — luxury stays, timeless comfort. Book your room directly on WhatsApp.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Marcellus&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ CUSTOM CURSOR / LOADER ============ -->
+<div class="loader" id="loader"><span class="loader-mark">MI</span></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav-logo">
+    <span class="nav-logo-mark">MI</span>
+    <span class="nav-logo-text">Hotel Mahadev Inn</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#welcome">About</a>
+    <a href="#culture">Banaras</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#amenities">Amenities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#book">Reserve</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <video id="heroVideo" class="hero-video" autoplay muted playsinline></video>
+    <canvas id="heroParticles" class="hero-particles" aria-hidden="true"></canvas>
+    <div class="hero-veil"></div>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-title reveal">
+      Hotel <em>Mahadev</em> Inn
+    </h1>
+    <div class="ornament reveal">
+      <span class="ornament-line"></span><span class="ornament-mark">◆</span><span class="ornament-line"></span>
+    </div>
+    <p class="hero-sub reveal">A quiet stay on the ghats of Banaras — one of the world's oldest living cities.</p>
+    <p class="hero-sub reveal hero-tagline">Your happy stay awaits.</p>
+    <div class="hero-actions reveal">
+      <a href="#book" class="btn btn-gold">Reserve a Room</a>
+      <a href="#" class="btn btn-whatsapp hero-whatsapp" target="_blank" rel="noopener">
+        <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.19c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.81-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.15.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.67.79 1.96.93.29.15.48.21.55.34.07.13.07.75-.17 1.43z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+    <div class="hero-rating reveal" aria-label="Google rating 4.9 out of 5 stars">
+      <span class="hero-rating-stars">★★★★★</span>
+      <span class="hero-rating-text">4.9 Google rating</span>
+    </div>
+  </div>
+  <a href="#welcome" class="hero-scroll" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ WELCOME / INTRO ============ -->
+<section class="welcome" id="welcome">
+  <div class="welcome-media">
+    <img src="./hotel mahadev.jpg" alt="Hotel Mahadev Inn interior">
+  </div>
+  <div class="welcome-copy">
+    <p class="eyebrow">About</p>
+    <h2>Stay in the heart of Banaras<br><em>with comfort that feels effortless</em></h2>
+    <p class="body-lg">
+Feels like home in the heart of Varanasi. 
+Clean rooms, smiling faces, and unbeatable location.
+    </p>
+    <div class="stat-row">
+      <div class="stat"><span class="stat-num">24</span><span class="stat-label">Well-appointed rooms</span></div>
+      <div class="stat"><span class="stat-num">4.9</span><span class="stat-label">Google review rating</span></div>
+      <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Front desk &amp; room service</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CULTURE / BANARAS ============ -->
+<section class="culture" id="culture">
+  <div class="section-head">
+    <p class="eyebrow">The City Outside</p>
+    <h2>You're Not Just Staying in a Room.<br><em>You're Staying in Banaras.</em></h2>
+    <p class="body-lg section-intro">One of the oldest living cities on earth, minutes from your door — ghats, silk, boats and lanes that have kept their rhythm for centuries.</p>
+  </div>
+  <div class="culture-grid">
+    <article class="culture-card">
+      <div class="culture-media"><img src="./vnsghat.png" alt="Ganga Aarti at the ghats"></div>
+      <span class="culture-tag tag-gold">Ganga Maa</span>
+      <h4>Ganga Aarti</h4>
+      <p>Golden lights, peaceful chants, and river views as the sun sets over Banaras — just a short walk away.</p>
+    </article>
+    <article class="culture-card">
+      <div class="culture-media"><img src="./vnsTemple.png" alt="Sunrise boat ride on the Ganges"></div>
+      <span class="culture-tag tag-teal">Temple</span>
+      <h4>Kashi Vishwanath Temple</h4>
+      <p>The magnificent domes of Kashi Vishwanath Temple rising into the morning sky, full of history and devotion</p>
+    </article>
+    <article class="culture-card">
+      <div class="culture-media"><img src="./Shiv.png" alt="Ancient ghats and narrow lanes of Varanasi"></div>
+      <span class="culture-tag tag-pink">Shivling</span>
+      <h4>Divine Worship</h4>
+      <p> Feel the spiritual vibe with daily prayers, sacred rituals, and fresh flower offerings.</p>
+    </article>
+    <article class="culture-card">
+      <div class="culture-media"><img src="./vnsFood.png" alt="Banarasi silk weaving"></div>
+      <span class="culture-tag tag-teal">Malaiyyo</span>
+      <h4>Banarasi Sweets & Food</h4>
+      <p>Taste the real Banaras with traditional sweets like famous Malaiyyo served in clay cups.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ ROOMS ============ -->
+<section class="rooms" id="rooms">
+  <div class="section-head">
+    <p class="eyebrow">Stay</p>
+    <h2>Rooms &amp; Suites</h2>
+    <p class="body-lg section-intro">Four categories, one standard of comfort. Tap a room to reserve it instantly on WhatsApp.</p>
+  </div>
+
+  <div class="room-grid" id="roomGrid">
+
+    <article class="room-card featured" data-room="Double Bed - AC Room" data-price="₹1,500">
+      <div class="room-media">
+        <div class="room-carousel">
+          <img src="./doubleBed1.jpg" alt="Double Bed - AC Room" class="room-img active">
+          <img src="./doubleBed2.jpg" alt="Double Bed - AC Room bathroom" class="room-img">
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">‹</button>
+        <button class="carousel-next" aria-label="Next image">›</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-body">
+        <p class="eyebrow">Double Bed</p>
+        <h3>Double Bed – AC Room</h3>
+        <p class="room-meta">15 m² · 1 King Bed · Non-smoking</p>
+        <p class="room-desc">A comfortable air-conditioned room with a private bathroom, free Wi‑Fi and everything you need for a restful stay.</p>
+        <ul class="room-amenities">
+          <li>🛏️ King Bed</li>
+          <li>❄️ AC</li>
+          <li>📶 Wi‑Fi</li>
+          <li>📺 TV</li>
+          <li>🧺 Housekeeping</li>
+        </ul>
+        <div class="room-foot">
+          <span class="room-price">₹1,500<small>/ night</small></span>
+          <button class="btn btn-line room-book-btn">Book on WhatsApp</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="room-card featured" data-room="Deluxe Room" data-price="₹2,000">
+
+      <div class="room-media">
+        <div class="room-carousel">
+          <img src="./tripleBed.jpg" alt="Deluxe Room" class="room-img active">
+          <img src="./washroom.jpg" alt="Deluxe Room" class="room-img active">
+
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">‹</button>
+        <button class="carousel-next" aria-label="Next image">›</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-body">
+        <p class="eyebrow">Family Room </p>
+        <h3>Family Suite – AC Room</h3>
+        <p class="room-desc">Double and Single beds with extra floor space, ideal for families or groups traveling together.</p>
+        <ul class="room-amenities">
+           <li>🛏️ 2 Beds</li>
+           <li>❄️ AC</li>
+          <li>📶 Wi‑Fi</li>
+          <li>📺 TV</li>
+          <li>🧺 Housekeeping</li>
+        </ul>
+        <div class="room-foot">
+          <span class="room-price">₹2,000<small>/ night</small></span>
+          <button class="btn btn-line room-book-btn">Book on WhatsApp</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="room-card featured" data-room="Mahadev Suite" data-price="₹2,500">
+      <div class="room-media">
+        <div class="room-carousel">
+           <img src="./4bed.jpg" alt="Mahadev Suite" class="room-img active">
+          <img src="./Fourbed.png" alt="Mahadev Suite" class="room-img active">
+          <!-- Add 3rd image when ready -->
+        </div>
+        <button class="carousel-prev" aria-label="Previous image">‹</button>
+        <button class="carousel-next" aria-label="Next image">›</button>
+        <div class="carousel-dots"></div>
+      </div>
+      <div class="room-body">
+        <p class="eyebrow gold"> Signature</p>
+        <h3>Deluxe Room</h3>
+        <p class="room-desc">Double beds with extra floor space, ideal for families or groups traveling together.</p>
+        <ul class="room-amenities">
+          <li>🛏️ 2 King Bed</li>
+          <li>❄️ AC</li>
+          <li>📶 Wi‑Fi</li>
+          <li>📺 TV</li>
+          <li>🧺 Housekeeping</li>
+        </ul>
+        <div class="room-foot">
+          <span class="room-price">₹2,500<small>/ night</small></span>
+          <button class="btn btn-line room-book-btn">Book on WhatsApp</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ POPULAR WITH GUESTS ============ -->
+<section class="popular-facilities" id="popular">
+  <div class="section-head">
+    <p class="eyebrow">Guest Favorites</p>
+    <h2>Popular with Guests</h2>
+  </div>
+  <div class="facilities-grid">
+    <div class="facility-item">
+      <span class="facility-icon">💧</span>
+      <h4>Mineral Water</h4>
+      <p>Complimentary mineral water in every room.</p>
+    </div>
+    <div class="facility-item">
+      <span class="facility-icon">🛎️</span>
+      <h4>Room Service</h4>
+      <p>24-hour in-room dining and service requests.</p>
+    </div>
+    <div class="facility-item">
+      <span class="facility-icon">🚿</span>
+      <h4>Hot & Cold Water</h4>
+      <p>Round-the-clock hot and cold water supply.</p>
+    </div>
+    <div class="facility-item">
+      <span class="facility-icon">🛁</span>
+      <h4>Premium Bathroom</h4>
+      <p>Modern bathroom with geyser and premium toiletries.</p>
+    </div>
+    <div class="facility-item">
+      <span class="facility-icon">📺</span>
+      <h4>LED Television</h4>
+      <p>Entertainment with satellite TV and streaming options.</p>
+    </div>
+    <div class="facility-item">
+      <span class="facility-icon">🧺</span>
+      <h4>Laundry Service</h4>
+      <p>Express laundry and ironing services available.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AMENITIES ============ -->
+<section class="amenities" id="amenities">
+  <div class="section-head light">
+    <p class="eyebrow">Comfort</p>
+    <h2>Every Detail, Considered</h2>
+  </div>
+  <div class="amenity-grid">
+    <div class="amenity">
+      <span class="amenity-icon">🧹</span>
+      <h4>Housekeeping</h4>
+      <p>Daily housekeeping with fresh linen and attentive room upkeep.</p>
+    </div>
+    <div class="amenity">
+      <span class="amenity-icon">📶</span>
+      <h4>Wi‑Fi</h4>
+      <p>Reliable internet access for work, travel planning and staying connected.</p>
+    </div>
+    <div class="amenity">
+      <span class="amenity-icon">🚗</span>
+      <h4>Parking</h4>
+      <p>Convenient on-site parking for self-driven arrivals and departures.</p>
+    </div>
+    <div class="amenity">
+      <span class="amenity-icon">🧊</span>
+      <h4>Refrigerator</h4>
+      <p> Refrigeration for storing essentials and refreshments.</p>
+    </div>
+    <div class="amenity">
+      <span class="amenity-icon">🚐</span>
+      <h4>Transfers &amp; Pickup</h4>
+      <p>Railway station transfers, shuttle service, pickup/drop and airport transfers arranged on request.</p>
+    </div>
+    <div class="amenity">
+      <span class="amenity-icon">🤝</span>
+      <h4>Accessibility &amp; Care</h4>
+      <p>Facilities for guests with disabilities, multilingual staff, caretaker support and doctor-on-call assistance.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="gallery">
+  <div class="section-head">
+    <p class="eyebrow">Glimpses</p>
+    <h2>The Mahadev Inn Gallery</h2>
+    <p class="body-lg section-intro">A comfortable stay in the heart of Varanasi with easy access to the old city, ghats, and transport links.</p>
+  </div>
+  <div class="gallery-grid" id="galleryGrid">
+    <img src="./guest2.jpg" alt="Gallery photo 1" data-full="">
+    <img src="./guest3.jpg" alt="Gallery photo 2" data-full="">
+    <img src="./deskView.png" alt="Gallery photo 3" data-full="">
+    <img src="./guest4.png" alt="Gallery photo 4" data-full="">
+    <img src="./guest1.jpg" alt="Gallery photo 5" data-full="">
+    <img src="./reception.png" alt="Gallery photo 6" data-full="">
+    <img src="./exterior.jpg" alt="Gallery photo 1" data-full="">
+    <img src="./hotel mahadev.jpg" alt="Gallery photo 2" data-full="">
+    <img src="./board.png" alt="Gallery photo 3" data-full="">
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials">
+  <div class="ornament light">
+    <span class="ornament-line"></span><span class="ornament-mark">◆</span><span class="ornament-line"></span>
+  </div>
+  <div class="reviews-wrap">
+    <div class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-source">Google review</span>
+      </div>
+      <p>Loved the hospitality. The staff were so polite and cooperative. Rooms were well maintained. It would have been more helpful if there was a wardrobe or storage space.
+Would love to stay here again during my next visit to Varanasi.</p>
+      <strong>—Jyothi Chetan</strong>
+    </div>
+    <div class="review-card featured-review">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-source">Google review</span>
+      </div>
+      <p>Had a pleasant stay at Mahadev Inn Hotel. Truly appreciate the owner and his son for their warm and welcoming hospitality. The room was clean and comfortable, making the stay even more enjoyable.
+Overall, it was a great experience and I would definitely recommend it!</p>
+      <strong>—Dhara Vyas</strong>
+    </div>
+    <div class="review-card">
+      <div class="review-top">
+        <span class="review-stars">★★★★★</span>
+        <span class="review-source">Google review</span>
+      </div>
+      <p>Our Stay in Hotel Mahadev Inn was one of the most satisfying ever. We felt like at home, not at a hotel. The Chaurasia Ji, Roshan Ji and his team were very caring. Complementary Water and tasty tea were served many times in a day.</p>
+      <strong>— 
+Rajesh Tiwari</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING FORM ============ -->
+<section class="book" id="book">
+  <div class="section-head">
+    <p class="eyebrow">Reserve</p>
+    <h2>Plan Your Stay</h2>
+    <p class="body-lg section-intro">Fill in your dates below — it opens WhatsApp with your details ready to send. No account, no waiting on hold.</p>
+  </div>
+
+  <form class="book-form" id="bookForm">
+    <div class="field">
+      <label for="fName">Full Name</label>
+      <input type="text" id="fName" name="name" placeholder="Your name" required>
+    </div>
+    <div class="field">
+      <label for="fPhone">Phone Number</label>
+      <input type="tel" id="fPhone" name="phone" placeholder="+91 98765 43210" required>
+    </div>
+    <div class="field">
+      <label for="fRoom">Room Type</label>
+      <select id="fRoom" name="room" required>
+        <option value="" disabled selected>Select a room</option>
+        <option>Double Bed - AC Room</option>
+        <option>Deluxe Room</option>
+        <option>Mahadev Suite</option>
+        <option>Family Room</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="fGuests">Guests</label>
+      <select id="fGuests" name="guests" required>
+        <option value="" disabled selected>Number of guests</option>
+        <option>1 Guest</option>
+        <option>2 Guests</option>
+        <option>3 Guests</option>
+        <option>4+ Guests</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="fCheckin">Check-in</label>
+      <input type="date" id="fCheckin" name="checkin" required>
+    </div>
+    <div class="field">
+      <label for="fCheckout">Check-out</label>
+      <input type="date" id="fCheckout" name="checkout" required>
+    </div>
+    <div class="field field-wide">
+      <label for="fNotes">Special Requests <span>(optional)</span></label>
+      <textarea id="fNotes" name="notes" rows="3" placeholder="Early check-in, airport pickup, anniversary setup…"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-whatsapp field-wide">
+      <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.19c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.81-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.15.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.67.79 1.96.93.29.15.48.21.55.34.07.13.07.75-.17 1.43z"/></svg>
+      Send Reservation via WhatsApp
+    </button>
+  </form>
+
+  <div class="book-policy">
+    <p><strong>Payment:</strong> Book now, pay at the property — no card details needed on this site.</p>
+    <p><strong>Cancellation:</strong> Free cancellation up to 1 day before arrival. </p>
+    <p><strong>Food &amp; Dining:</strong> Food can be served in the room. Non-veg food is allowed and food from outside is allowed.</p>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="footer" id="contact">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="nav-logo-mark">MI</span>
+      <p>Hotel Mahadev Inn</p>
+      <p class="footer-tag">A heritage of hospitality.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="https://share.google/EdNsXxXVOPSWfPMqC" target="_blank" rel="noopener" id="footerAddress">C 13/168 D Godowlia, Luxa Rd, near Aurangabad Police Chauki, Varanasi, Uttar Pradesh 221010</a>
+      <a href="https://www.google.com/maps/dir/12.9630208,77.7125888/Hotel+mahadev+inn,+C+13%2F168+D+Godowlia,+Luxa+Rd,+near+Aurangabad+Police+Chauki,+Varanasi,+Uttar+Pradesh+221010/@19.1250133,74.7216957,6z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x398e2f70ddec1c71:0xb25041598eb5031a!2m2!1d82.9994228!2d25.3140823?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="footer-btn">📍 Find Us Here</a>
+      <p id="footerPhone">+91 63923 01235</p>
+      <p id="footerEmail">hotelmahadevinn@gmail.com</p>
+      <p><strong>Rating:</strong> ★★★★★</p>
+    </div>
+    <div class="footer-col">
+      <h5>Explore</h5>
+      <a href="#rooms">Rooms &amp; Suites</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book">Reserve</a>
+    </div>
+    <div class="footer-col">
+      <h5>Reach Us</h5>
+      <a href="#" class="footer-whatsapp" target="_blank" rel="noopener">
+        <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.19c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.81-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.15.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.67.79 1.96.93.29.15.48.21.55.34.07.13.07.75-.17 1.43z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Hotel Mahadev Inn. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP BUTTON ============ -->
+<a href="#" class="whatsapp-float" id="floatWhatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg class="wa-icon" viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.19c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.12.11-1.81-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.13-4.9-4.32-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.15.07.15.12.32.02.51-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.72-.84.91-1.13.19-.29.38-.24.64-.15.26.1 1.67.79 1.96.93.29.15.48.21.55.34.07.13.07.75-.17 1.43z"/></svg>
+  <span class="whatsapp-ring"></span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
